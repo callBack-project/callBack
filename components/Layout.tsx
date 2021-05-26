@@ -24,8 +24,24 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
           <a>About</a>
         </Link>{' '}
         |{' '}
+        <Link href="/companies">
+          <a>Companies</a>
+        </Link>{' '}
+        |{' '}
+        <Link href="/jobs">
+          <a>Jobs</a>
+        </Link>{' '}
+        |{' '}
+        <Link href="/interview-experience">
+          <a>Interview-Experience</a>
+        </Link>{' '}
+        |{' '}
+        <Link href="/events">
+          <a>Events</a>
+        </Link>{' '}
+        |{' '}
         <Link href="/users">
-          <a>Users List</a>
+          <a>Members</a>
         </Link>{' '}
         | <a href="/api/users">Users API</a>
       </nav>
@@ -33,7 +49,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
     {children}
     <footer>
       <hr />
-      <span>I'm here to stay (Footer)</span>
+      <span>copyright 2021 (Footer)</span>
     </footer>
   </div>
 )

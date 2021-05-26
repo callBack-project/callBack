@@ -5,11 +5,7 @@ const Companies = () => (
   <Layout title="Companies | Next.js + TypeScript Example">
     <h1>Companies</h1>
     <p>All Companies</p>
-    <p>
-      <Link href="/">
-        <a>Go home</a>
-      </Link>
-    </p>
+    
   </Layout>
 )
 
